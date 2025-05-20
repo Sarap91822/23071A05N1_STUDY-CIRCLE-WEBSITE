@@ -1,0 +1,51 @@
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  background: #343a40;
+  padding: 10px;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  background: #007bff;
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.nav a:hover {
+  background: #0056b3;
+}
+
+.form-container {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #f1f1f1;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input,
+button,
+textarea {
+  width: 100%;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background: #28a745;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #218838;
+}
